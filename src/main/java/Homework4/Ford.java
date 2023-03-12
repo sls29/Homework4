@@ -6,7 +6,7 @@ public class Ford extends Car {
     public int tireSize;
     public String chassisNumber;
 
-    public Ford (String carModel, String chassisNumber, int tireSize, float availableFuel) {
+    public Ford (String carModel, String chassisNumber, int gears, String fuelType, int fuelTankSize, float availableFuel, float consPer100Km, int tireSize) {
 
         super(fuelType, fuelTankSize, gears, consPer100Km);
 
