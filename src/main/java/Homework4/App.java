@@ -6,11 +6,11 @@ package Homework4;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) {
 
-    {
-        Car fordFocus = new Car("Ford", "Focus", "diesel", 45, 6, 5.8f, 45, 16);
+        Vehicle car1 = new Ford( "Focus", "QWERTY123456", 15, 45);
 
-        fordFocus.Start();
+    car1.Start();
+
     }
 }
