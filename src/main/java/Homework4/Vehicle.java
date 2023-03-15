@@ -3,7 +3,7 @@ package Homework4;
 public class Vehicle implements VehicleInterface {
 
     public void start() {
-        System.out.println("Vechicle started");
+        System.out.println("Vehicle started");
     }
 
     public void stop() {

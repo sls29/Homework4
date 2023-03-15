@@ -1,6 +1,7 @@
 package Homework4;
 
-abstract class Car extends Vehicle implements CarInterface {
+abstract class Car  extends Vehicle
+                    implements CarInterface {
     protected String FUEL_TYPE;
     protected static int FUEL_TANK_SIZE;
     protected static int GEARS;
