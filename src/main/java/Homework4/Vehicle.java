@@ -1,16 +1,16 @@
 package Homework4;
 
-public class Vehicle {
+public class Vehicle implements VehicleInterface {
 
-    public void Start() {
+    public void start() {
         System.out.println("Vechicle started");
     }
 
-    public void Stop() {
+    public void stop() {
         System.out.println("Vehicle stopped");
     }
 
-    public void Drive() {
+    public void drive() {
         System.out.println("Vehicle is running");
     }
 }
