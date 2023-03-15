@@ -14,6 +14,12 @@ public class App
 
     focus1.start();
     focus1.shiftGear();
+    focus1.drive();
+    focus1.getAvailableFuel();
+    focus1.shiftGear();
+    focus1.stop();
+    focus1.getAverageFuelConsumption();
+
 
     }
 }

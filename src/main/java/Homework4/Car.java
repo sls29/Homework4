@@ -12,4 +12,16 @@ abstract class Car extends Vehicle implements CarInterface {
         this.GEARS = GEARS;
         this.CONS_PER100_KM = CONS_PER100_KM;
     }
+
+    public void shiftGear() {
+        System.out.println("Gear shifted");
+    }
+
+    public void getAvailableFuel(){
+        System.out.println("Fuel available: xx");
+    }
+
+    public void getAverageFuelConsumption(){
+        System.out.println("AFC = : xx");
+    }
 }
