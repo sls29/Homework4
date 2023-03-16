@@ -12,6 +12,10 @@ public class Focus extends Ford{
 
     this.availableFuel = availableFuel;
     this.CHASSIS_NUMBER = CHASSIS_NUMBER;
-
     }
+public void start(){
+
+
+}
+
 }
