@@ -1,15 +1,12 @@
 package Homework4;
 
-public class Car extends Vehicle {
-    public String fuelType;
-    public int fuelTankSize;
-    public int gears;
-    public float consPer100Km;
-    public Car(String fuelType, int fuelTankSize, int gears, float consPer100Km) {
+abstract class Car  extends Vehicle {
 
-        this.fuelType = fuelType;
-        this.fuelTankSize = fuelTankSize;
-        this.gears = gears;
-        this.consPer100Km = consPer100Km;
+    public Car(String FUEL_TYPE, int FUEL_TANK_SIZE, int GEARS, float CONS_PER100_KM) {
+
+//        this.FUEL_TYPE = FUEL_TYPE;
+//        this.FUEL_TANK_SIZE = FUEL_TANK_SIZE;
+//        this.GEARS = GEARS;
+//        this.CONS_PER100_KM = CONS_PER100_KM;
     }
 }
